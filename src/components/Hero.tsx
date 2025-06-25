@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             Olá, eu sou{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">
-              Seu Nome
+              Bruno
             </span>
           </h1>
           
