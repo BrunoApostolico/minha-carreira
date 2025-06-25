@@ -6,22 +6,22 @@ const About = () => {
     {
       icon: Code,
       title: "Desenvolvimento",
-      description: "React, TypeScript, Node.js, Python, bases de dados SQL/NoSQL",
+      description: "Java, Spring Boot, React, TypeScript, Node.js, bases de dados SQL/NoSQL",
     },
     {
       icon: Palette,
-      title: "Design UI/UX",
-      description: "Figma, Adobe Creative Suite, prototipagem e design responsivo",
+      title: "Arquitetura de Software",
+      description: "Design patterns, microserviços, sistemas distribuídos e clean architecture",
     },
     {
       icon: Zap,
-      title: "Performance",
-      description: "Otimização de aplicações, SEO, acessibilidade e melhores práticas",
+      title: "Engenharia de Software",
+      description: "Metodologias ágeis, DevOps, CI/CD, testes automatizados e otimização",
     },
     {
       icon: Users,
-      title: "Colaboração",
-      description: "Trabalho em equipe, metodologias ágeis, comunicação eficaz",
+      title: "Gestão e Liderança",
+      description: "Gestão de pessoas, coordenação de projetos e desenvolvimento de equipes",
     },
   ];
 
@@ -34,8 +34,8 @@ const About = () => {
               Sobre Mim
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Profissional apaixonado por tecnologia com mais de 5 anos de experiência 
-              criando soluções digitais inovadoras e impactantes.
+              Desenvolvedor Full Stack e Analista de Sistemas com mais de 17 anos de experiência 
+              em desenvolvimento de software e gestão de projetos tecnológicos.
             </p>
           </div>
 
@@ -44,38 +44,63 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Minha Jornada</h3>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Iniciei minha carreira como desenvolvedor em 2019, focando em tecnologias web modernas. 
-                  Ao longo dos anos, expandir minhas competências para incluir design UI/UX, 
-                  gestão de projetos e liderança de equipes.
+                  Graduado em Análise e Desenvolvimento de Sistemas, com especializações em 
+                  Engenharia de Software com Java (MIT) e Gestão de Pessoas e Negócios, 
+                  combinando expertise técnica com competências de liderança.
                 </p>
                 <p>
-                  Tenho experiência em diversos setores, desde startups até grandes corporações, 
-                  sempre com foco em entregar valor real através da tecnologia.
+                  Durante minha carreira, trabalhei em empresas de diferentes setores, desde 
+                  energia elétrica até serviços marítimos, sempre focado em entregar soluções 
+                  tecnológicas robustas e eficientes.
                 </p>
                 <p>
-                  Atualmente, trabalho como Full Stack Developer, onde combino minha paixão 
-                  por código limpo com design centrado no usuário.
+                  Atualmente na Oceanpact Serviços, onde aplico minha experiência em desenvolvimento 
+                  e gestão para criar sistemas que impactam positivamente os processos empresariais.
                 </p>
               </div>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Experiência</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Experiência Profissional</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-600 pl-4">
-                  <h4 className="font-semibold text-gray-800">Senior Full Stack Developer</h4>
-                  <p className="text-blue-600">Tech Company • 2022 - Presente</p>
-                  <p className="text-gray-600 text-sm">Liderança de projetos web complexos, mentoria de equipe</p>
+                  <h4 className="font-semibold text-gray-800">Desenvolvedor Full Stack</h4>
+                  <p className="text-blue-600">Oceanpact Serviços • 2022 - Presente</p>
+                  <p className="text-gray-600 text-sm">Desenvolvimento de sistemas e gestão de projetos tecnológicos</p>
                 </div>
                 <div className="border-l-4 border-gray-300 pl-4">
-                  <h4 className="font-semibold text-gray-800">Full Stack Developer</h4>
-                  <p className="text-gray-600">Startup Inc. • 2020 - 2022</p>
-                  <p className="text-gray-600 text-sm">Desenvolvimento de aplicações web e mobile</p>
+                  <h4 className="font-semibold text-gray-800">Analista de Sistemas</h4>
+                  <p className="text-gray-600">Fattu do Brasil • 2018 - 2022</p>
+                  <p className="text-gray-600 text-sm">Desenvolvimento de aplicações e análise de sistemas</p>
                 </div>
                 <div className="border-l-4 border-gray-300 pl-4">
-                  <h4 className="font-semibold text-gray-800">Junior Developer</h4>
-                  <p className="text-gray-600">Agency Ltd. • 2019 - 2020</p>
-                  <p className="text-gray-600 text-sm">Desenvolvimento frontend e design responsivo</p>
+                  <h4 className="font-semibold text-gray-800">Desenvolvedor de Sistemas</h4>
+                  <p className="text-gray-600">Light Distribuidora • 2007 - 2018</p>
+                  <p className="text-gray-600 text-sm">11 anos desenvolvendo sistemas para o setor elétrico</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl mb-12">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Formação Acadêmica</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-gray-800 mb-2">Graduação</h4>
+                  <p className="text-blue-600 font-medium">Análise e Desenvolvimento de Sistemas</p>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-gray-800 mb-2">Pós-graduação MIT</h4>
+                  <p className="text-blue-600 font-medium">Engenharia de Software com Java</p>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-gray-800 mb-2">Pós-graduação</h4>
+                  <p className="text-blue-600 font-medium">Gestão de Pessoas e Negócios</p>
                 </div>
               </div>
             </div>
